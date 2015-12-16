@@ -1,0 +1,13 @@
+body
+{
+
+	background-color:#000;
+	background-image: url(fondo.jpg);
+	background-repeat:inherit;
+	/*
+	background-repeat:no-repeat;
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	*/
+}
+/*Lo ideal es colocar una textura muy pequena lo coloca en forma de mosaico*/

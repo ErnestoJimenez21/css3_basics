@@ -1,0 +1,12 @@
+.tamano
+{
+	height: 30px;
+	width: 30px;
+	overflow: hidden;
+	border:solid;
+	resize:both;/*El usuario puede manipular la etiqueta horizontal y vertcalmente*/
+	/*resize:horizontal;*//*El usuario puede manipular la etiqueta horizontalmente*/
+	/*resize:vertical;*//*El usuario puede manipular la etiqueta verticalmente*/
+	/*resize:inherit;*//*No haga caso de rezise*/
+
+}

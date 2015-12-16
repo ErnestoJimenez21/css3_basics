@@ -1,0 +1,18 @@
+@font-face
+{
+	font-family:"Digital";/*Nombre de la fuente*/
+src:url(fonts/dited.ttf),:url(fonts/dited.eot),:url(fonts/dited.otf);
+
+}
+.parrafo-personalizado
+{
+
+font-family: 'Indie Flower', cursive;	
+}
+
+
+
+/*tres tipos de formato
+eot otf ttf
+webfonts
+*/

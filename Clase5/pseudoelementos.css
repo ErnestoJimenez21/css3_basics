@@ -1,0 +1,39 @@
+ul li
+{
+	list-style-type:none;
+	font-size:50px;
+	font-weight:bold;
+	color:#069;
+
+
+}
+
+/*Coloca elemento justo antes de*/
+ul li::before
+{
+content:url(mono.png);
+}
+
+/*Coloca elemento despues de*/
+ul li::after
+{
+content:url(mono.png);
+}
+
+/*Estilo a la primera letra de determinada etiqueta*/
+p::first-letter
+{
+
+font-size:36px;
+font-weight:bold;
+
+
+}
+
+p::first-line
+{
+
+color:#F00;
+text-decoration:underline;/*subrayado*/
+
+}

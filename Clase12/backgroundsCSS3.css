@@ -1,0 +1,19 @@
+body
+{
+background-image:url(mono.png),url(fondo.jpg);/*mono queda enfrente, fondo atras*/
+background-repeat:no-repeat,repeat;/*no repite el mono, repite el fondo*/
+background-position: center,left top;/*posicion de las imagenes de acuerdo al tamano de contenedor*/
+background-size: 100% 100%;/*imagen cubre toda la pantalla no importa la resolucion*/
+}
+
+/*Se puede utilizar solo en una seccion de la pagina*/
+.space
+{
+background-image:url(mono.png),url(fondo.jpg);/*mono queda enfrente, fondo atras*/
+background-repeat:no-repeat,repeat;/*no repite el mono, repite el fondo*/
+background-position: center,left top;/*posicion de las imagenes de acuerdo al tamano de contenedor*/
+background-size: 100% 100%;/*imagen cubre toda la pantalla no importa la resolucion*/
+
+height:600px;
+width:300px;	
+}

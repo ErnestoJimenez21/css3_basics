@@ -1,0 +1,23 @@
+#contenido
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: red;
+	height: 1000px;	
+}
+
+.div_prueba
+{
+
+background-color: blue;
+height: 100px;
+width: 300px;
+/*position:absolute;*//*Una posicion libre*/
+/*top:30%;*//*Jugar como una especie de coordenadas*/
+/*left:40%;*/
+/*position: relative;*//*De acuerdo al contenedor y si se desplaza el contenedor no se visualiza*/
+
+position:fixed;/*El elemento siempre se mantiene en la misma posicion Util para el menu de navegacion*/
+top: -10px;
+left: -10px;
+}

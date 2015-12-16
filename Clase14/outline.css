@@ -1,0 +1,16 @@
+#miForm input
+{
+
+outline: solid;
+outline-color: #000;
+outline-width: 2px;
+
+}
+
+/*
+dashed:linea punteada
+dotted:linea doble
+inset:linea por dentro;
+outset:linea por fuera;
+solid
+*/

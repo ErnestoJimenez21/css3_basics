@@ -1,0 +1,58 @@
+a
+{
+	color:#333333;
+	text-decoration: none;	
+}
+/*pseudoclase CUANDO NO SE HA VISITADO*/
+a:link
+{
+color:#900;
+}
+/*pseudoclase CUANDO YA SE HA VISITADO*/
+a:visited
+{
+color:#003399;	
+}
+
+/*Cuando el cursor se pone por encima de la etiqueda*/
+a:hover
+{
+
+background-color: #CCC;
+
+}
+/*Cuando el foco esta sobre las etiquetas input*/
+input:focus
+{
+border-color: red;
+background-color: #000;
+color:#FFF;
+}
+
+input:hover
+{
+
+background-color: green;
+
+}
+
+/*Aplica los cambios al primer elemento li dentro de cualquier lista ul*/
+ul li:first-child
+{
+background-color: green;
+
+}
+
+/*Aplica los cambios al ultimo elemento li dentro de cualquier lista ul*/
+ul li:last-child
+{
+background-color: blue;
+
+}
+
+/*Aplica los cambios al Segundo elemento li dentro de cualquier ul*/
+ul li:nth-child(2)
+{
+background-color: red;
+
+}

@@ -1,0 +1,34 @@
+/*Selector*/
+h1,h2
+{
+	color:#990000;
+	text-decoration: underline;
+
+}
+
+p
+{
+color: #333333;
+
+
+}
+
+/*Clase*/
+.instructor
+{
+
+	color:#006699;
+}
+/* Identificador*/
+#piePagina
+{
+	color:#093;
+
+}
+/*De manera muy especifica
+Cuando omitimos las comas , selecciona de manera anidada ,en este ejemplo la li dentro de ul dentro de nav*/
+nav ul li
+{
+color:#3333CC;
+
+}

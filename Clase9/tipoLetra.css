@@ -1,0 +1,26 @@
+body
+{
+font-family:Arial,Helvetica,sans-serif;
+
+}
+
+.parrafo-prueba
+{
+font-weight:bolder;
+font-size: 32px;
+
+}
+.parrafo-prueba2
+{
+font-style: italic;
+/*font-variant: small-caps;*//*Pasa todo a mayusculas*/
+}
+
+.parrafo-prueba3
+{
+
+font-style:oblique;	
+}
+/*Arial Win,Helvetica MacOs,sans-serif linux,
+necesario tener instalada la fuente
+*/
